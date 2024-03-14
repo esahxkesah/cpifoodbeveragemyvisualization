@@ -1,4 +1,3 @@
-<img width="422" alt="Screenshot 2024-03-14 095957" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/367c5e59-ad95-4a27-8d6d-b6665b3dbbca"><img width="235" alt="Screenshot 2024-03-14 095146" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/48317709-cb76-48c1-8813-a000e9cb4970"># cpifoodbeveragemy-
 Information Visualization of CPI Food &amp; Beverage and its Demographics in Malaysia
 | Name                          | Matric No     |
 | -------------                 | ------------- |
@@ -34,19 +33,23 @@ In addition to the CPI data, this project also utilizes the population of Malays
 
 # 4.1 Data Preprocessing
 <img width="498" alt="Screenshot 2024-03-14 094712" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/82a68187-815b-4d86-9e25-13c6d2d241dd">
+
 _Figure 4.1 Raw general CPI dataset_
 
 <img width="248" alt="Screenshot 2024-03-14 094859" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/3527e210-13f8-4927-935d-1edc2c0beca2">
+
 _Figure 4.2 Raw state-wise population dataset_
 
 Above is the raw data of CPI and population taken for each state within Malaysia that will undergo meticulous preprocessing through Microsoft Excel. This process involved a systematic series of steps to make the data feasible and usable. Firstly, the data were cleaned of unnecessary spacing, changing the format to a table form. The data was then inspected for any missing values. Any blank cells were filtered and removed to avoid any potential disruptions. Redundancy was addressed by removing any duplicated data, to ensure data integrity. The next step involved standardizing inconsistent data using the ‘Format Cells’ option. To focus the analysis, the data was filtered specifically to relevant points, such as the category for food and beverages.  
 
 # 4.2 Key Findings 
 <img width="235" alt="Screenshot 2024-03-14 095146" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/68f9ee30-934d-4a9b-b652-e33d901e4534">
+
 _Figure 4.3 Processed CPI data of food and beverage_
 
 
 <img width="304" alt="Screenshot 2024-03-14 095238" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/316b6eea-8d28-46c8-85f3-8960c613e649">
+
 _Figure 4.4 Processed state-wise population data_
 
 Drawing from the comprehensive datasets above, there are significant parallels that emerged in the date and state data column. This facilitated the alignment of data from the years 2021 to 2023, which offers a coherent temporal context for subsequent analyses. As for state data, a pivotal enhancement involved a new region column, which specifies states into distinct geographical regions – central, north, south, east coast, Sabah and Sarawak. The allocation of states to specific regions contributes to a more refined and regionally contextualized dataset.
@@ -81,54 +84,63 @@ When images are carefully incorporated and various font sizes from the Tableau a
 ## 6.0 Tableau Visualization 
 
 There are a total of 7 dashboards included in the storyboard:
-Cover page
-What is CPI?
-How does CPI reflect the population?
-Brief description of the dataset
-CPI of food and beverage
-CPI and population
-Conclusion
+1. Cover page
+2. What is CPI?
+3. How does CPI reflect the population?
+4. Brief description of the dataset
+5. CPI of food and beverage
+6. CPI and population
+7. Conclusion
 
 
-Cover page
+1. Cover page
 The cover page serves as the visual introduction to the presentation, featuring a compelling image that sets the tone for the subsequent content. It creates an initial impact and sparks interest, prompting viewers to delve into the insights presented.
 <img width="423" alt="Screenshot 2024-03-14 095533" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/3ba2706b-155b-447c-85aa-43af61b390c1">
+
 _Figure 6.1 Cover Page_
 
 
-What is CPI?
+2. What is CPI?
 This section provides a clear explanation of CPI (Consumer Price Index) to ensure that viewers have a foundational understanding of the metric.
 <img width="394" alt="Screenshot 2024-03-14 095814" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/e175aa6b-9e37-4984-8b9e-232a67861860">
+
 _Figure 6.2 ‘What Is CPI?’ Dashboard_
 
-How does CPI reflect the population?
+3. How does CPI reflect the population?
 Expanding on the relationship between CPI and population, this section explores how CPI values offer insights into the cost of living and consumption patterns across different states. 
 <img width="423" alt="image" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/32c7ad9f-06e9-4d92-8a52-7c6ed93e9fbf">
+
 _Figure 6.3 ‘ How Does CPI Reflect Population?’ Dashboard_
 
-Brief description of the dataset
+4. Brief description of the dataset
 This page offers a concise overview of the dataset used in the presentation. 
 <img width="422" alt="Screenshot 2024-03-14 095957" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/8ef3bd80-7321-4837-b5f2-e8555dd9138a">
+
 _Figure 6.4 ‘ Brief Description of Dataset’ Dashboard_
 
-CPI of food and beverage
+5. CPI of food and beverage
 Focused on the primary topic, this section features a geo map displaying CPI values for food and beverages across states in Malaysia. The interactive map allows users to filter data by year, providing a dynamic exploration of regional CPI trends. Users are also able to click the numbers of CPI in the region on the table which then highlights the locations in the geo map.
 <img width="427" alt="image" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/4750290c-6a2a-4437-9dba-7ab2f0378bf4">
+
 _Figure 6.6 CPI of food and beverage Dashboard_
 
 <img width="425" alt="image" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/35ad694f-9cf7-4dcb-8aa8-cb006659672e">
+
 _Figure 6.7 shows when Central Region is highlighted_
 
-CPI and population
+6. CPI and population
 This page integrates a dual-axis bar chart illustrating the correlation between population and CPI values, a tree map visualising population distribution, and a line chart depicting CPI trends over the three years. The combination of these visuals offers a holistic view of the interplay between CPI and population. Users are able to filter by years and the selected data from each graph will reflect on the other graphs.
 <img width="425" alt="image" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/59923b29-34e9-4247-88a9-ab51ef35e1ed">
+
 _Figure 6.8 CPI and Population Dashboard_
 
 <img width="424" alt="image" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/83e389dc-f233-411d-82ef-9fc2a6e29a6b">
+
 _Figure 6.9 shows a population from Selangor is highlighted_
 
-Conclusion
+7. Conclusion
 The conclusion page encapsulates the key findings and takeaways from the analysis. It includes a summary of the presentation, highlights the highest and lowest CPI values, identifies regions with the highest and lowest populations, and concludes with actionable recommendations. Images further enhance the impact and memorability of the conclusions drawn from the data.
+
 <img width="430" alt="image" src="https://github.com/esahxkesah/cpifoodbeveragemyvisualization/assets/68623558/93c16931-f6b8-4431-8a1c-b54f3f8057fd">
 
 ## 7.0 Data Storytelling 
