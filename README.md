@@ -1,4 +1,4 @@
-### Information Visualization of CPI Food &amp; Beverage and its Demographics in Malaysia
+### Information Visualization of CPI Food & Beverage and its Demographics in Malaysia
 | Name                          | Matric No     |
 | -------------                 | ------------- |
 | Siti Aisyah binti Ismail      | 2010912       |
